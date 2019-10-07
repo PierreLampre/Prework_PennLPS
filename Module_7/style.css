@@ -1,0 +1,27 @@
+body {
+    animation: change 10s infinite;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 5em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    font-size: 24px;
+}
+
+@keyframes change {
+    0%{background-color: #1abc9c;}
+    25%{background-color: #2ecc71;}
+    50%{background-color: #3498db}
+    75%{background-color: #9b59b6}
+    100%{background-color: #e743c3}
+}
+
